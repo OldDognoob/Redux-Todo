@@ -1,7 +1,7 @@
 import * as types from './actionTypes'
 import uuid from 'uuid'
 
-//STEP-7 MAKE ACTIONS CREATORS THE COMPONENTS CAN USE DIRECTLY
+//STEP-7 MAKE ACTIONS CREATORS THE COMPONENTS CAN USE DIRECTLY/DESIGN ACTION CREATOR FUNCTION
 export function toggleTodo(id){
     return{
         type: types.TOGGLE_TODO,
